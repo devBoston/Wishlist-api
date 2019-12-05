@@ -1,4 +1,7 @@
 class ItemSerializer < ActiveModel::Serializer
-  attributes :id, :name, :description
-  # has_one :user
+  attributes :id, :name, :description, :editable
+
+  def editable
+    scope == object.user
+  end
 end

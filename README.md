@@ -27,7 +27,7 @@ This is an API using Heroku. Built to support a front-end application built with
 
 
 ## Planning
-To start, I made an ERD to show what the user would 'own' as a resource on the API.
+To start, I made an ERD to show what the user would 'own' as a resource on the API. I then built the back end using Ruby on Rails.
 
 ### Links to Wire frame and ERD
 * https://imgur.com/a/dPcG5gK
